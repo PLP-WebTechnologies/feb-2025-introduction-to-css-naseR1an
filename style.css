@@ -1,0 +1,37 @@
+/* Using a class selector */
+.title {
+    color: blue;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+/* Using an element selector */
+p{
+    color: goldenrod;
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;}
+    
+body {
+        background-color: #3498db; /* A nice blue color */
+        color: white; /* Adjust text color for contrast */
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px; }
+
+/* Using a universal selector */
+*{
+    margin: 10px; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+/* Styling an image */
+.image {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+
